@@ -1,0 +1,53 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+.todo .input {
+  display: flex;
+  padding: 10px;
+  border: 1px solid rgb(214, 210, 210);
+  margin-top: 2vh;
+}
+.input input {
+  width: 22vw;
+  font-size: 18px;
+  background: transparent;
+  outline-width: 0;
+  border: none;
+  margin-left: 10px;
+}
+.input button {
+  background: transparent;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.input button:hover {
+  background-color: gray;
+  color: white;
+}
+.remove {
+  margin-top: 1vh;
+}
+
+.list .singleTodo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1vh;
+  min-width: 22vw;
+  width: auto;
+}
+.list .singleTodo p {
+  flex: 1;
+  font-size: 20px;
+}
+.list .singleTodo .icon {
+  color: rgb(43, 42, 42);
+  padding: 10px;
+}

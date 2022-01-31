@@ -1,0 +1,20 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: 0px 10px 10px 5px rgba(190, 190, 190, 0.55);
+  -webkit-box-shadow: 0px 10px 10px 5px rgba(190, 190, 190, 0.55);
+  -moz-box-shadow: 0px 10px 10px 5px rgba(190, 190, 190, 0.55);
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav-bar h2 {
+  margin-left: 1vw;
+}
